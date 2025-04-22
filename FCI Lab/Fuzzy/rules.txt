@@ -1,0 +1,28 @@
+rule1: IF bloodPressure is low and cholesterol is low and ldl is normal and hdl is high THEN risk is Not
+rule2: IF bloodPressure is low and cholesterol is low and ldl is limit and hdl is high THEN risk is little
+rule3: IF bloodPressure is low and cholesterol is low and ldl is high and hdl is high THEN risk is middle
+rule4: IF bloodPressure is low and cholesterol is low and ldl is veryhigh and hdl is high THEN risk is high
+rule5: IF bloodPressure is middle and cholesterol is low and  hdl is high THEN risk is Not
+
+rule6: IF age is young and bloodPressure is middle and cholesterol is middle THEN risk is Not
+rule7: IF age is middle and bloodPressure is middle and cholesterol is middle  THEN  risk is Not
+rule8: IF age is old and bloodPressure is middle and cholesterol is middle THEN risk is Not
+
+rule9: IF age is young and bloodPressure is high and cholesterol is high  THEN  risk is middle
+rule10: IF age is middle and   bloodPressure is high and cholesterol is high  THEN  risk is high
+rule11: IF age is old and bloodPressure is high and cholesterol is high  THEN  risk is veryhigh
+
+rule12: IF age is young and bloodPressure is middle and cholesterol is low and ldl is normal and hdl is low THEN risk is Not
+rule13: IF age is young and bloodSugar is veryhigh THEN risk is little
+rule14: IF age is middle and bloodSugar is veryhigh THEN risk is high
+rule15: IF age is old and bloodSugar is veryhigh THEN risk is veryhigh
+rule16: IF age is young and bloodPressure is low and cholesterol is low and bloodSugar is veryhigh and ldl is normal and hdl is high THEN risk is little
+rule17: IF age is middle and bloodPressure is low and cholesterol is low and bloodSugar is veryhigh and ldl is normal and hdl is high THEN risk is high
+rule18: IF age is old and bloodPressure is low and cholesterol is low and bloodSugar is veryhigh and ldl is normal and hdl is high  THEN risk is veryhigh
+rule19: IF age is middle and bloodPressure is low and cholesterol is low and bloodSugar is veryhigh and ldl is veryhigh and hdl is high THEN risk is veryhigh
+
+rule20: IF bloodPressure is veryhigh and cholesterol is high and ldl is veryhigh and hdl is high THEN risk is veryhigh
+rule21: IF bloodPressure is high and cholesterol is high and ldl is high and hdl is middle THEN risk is veryhigh
+rule22: IF age is young and bloodPressure is veryhigh and cholesterol is high and ldl is veryhigh and hdl is middle THEN risk is middle
+rule23: IF age is middle and bloodPressure is veryhigh THEN risk is veryhigh
+rule24: IF age is old and bloodPressure is veryhigh THEN risk is veryhigh
