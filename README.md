@@ -76,7 +76,7 @@ This folder contains 12 lab assignments from the **FCI** course, covering a rang
    pip install jupyter numpy pandas scikit-learn torch tensorflow matplotlib
    ```
 3. For homeworks and labs:
-   - Navigate to the desired folder (`Deep`, `Machine`, or `FIC`).
+   - Navigate to the desired folder (`Deep`, `Machine`, or `FCI`).
    - Open Jupyter notebooks or Python scripts with:
      ```bash
      jupyter notebook
